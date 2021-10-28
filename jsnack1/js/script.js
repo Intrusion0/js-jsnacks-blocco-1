@@ -13,9 +13,9 @@ Il software stampa il maggiore.
         --> DONE    2.1 Creo una variabile in cui assegno il primo valore dell'array fuori dal ciclo => let highNum = num[0];
         --> DONE    2.2 Utilizzo la variabile highNum all'interno del ciclo e la confronto con gli altri elementi dell'array. => if (num[i] >= highNum)
                 --> DONE    2.2.1 Se l'elemento dell'array dovesse essere maggiore o uguale ad highNum, assegno ad esso il valore di num[i] => highNum = num[i];
-        --> DONE    2.4 Stampo il risultato nell'html
-                --> DONE    2.4.1 Creo una variabile in cui assegno l'elemento nella quale faccio riferimento => let textNum = document.querySelector(".higher_number");
-                --> DONE    2.4.2 Appendo il risultato nella nuova variabile. => append
+        --> DONE    2.3 Stampo il risultato nell'html
+                --> DONE    2.3.1 Creo una variabile in cui assegno l'elemento nella quale faccio riferimento => let textNum = document.querySelector(".higher_number");
+                --> DONE    2.3.2 Appendo il risultato nella nuova variabile. => append
 
 */
 
