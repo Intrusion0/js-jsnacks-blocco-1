@@ -5,7 +5,7 @@ L’utente inserisce due numeri in successione, con due prompt.
 Il software stampa il maggiore.
 */
 
-/*
+/* SOLUZIONE IN CASO CI SIANO PIU' NUMERI ALL'INTERNO DI UN'ARRAY
 --> DONE    1. Creo un array vuoto che dovrà contenere i 2 numeri inseriti dall'utente => const num = [];
         --> DONE    1.2 Utilizzo un ciclo for per chiedere il numero 2 volte. => for
         --> DONE    1.2 Utilizzo un push all'interno del ciclo per aggiungere i 2 numeri all'interno dell'array => num.push();
@@ -19,22 +19,40 @@ Il software stampa il maggiore.
 
 */
 
-let num = [];
 
-for (let i = 1; i < 3; i++) {
-    let userNum = prompt(`Inserisci il numero: ${i}`);
-    num.push(userNum);
-}
-
-console.log(num);
-
-let highNum = num[0];
-
-for(let j = 0; j < num.length; j++) {
-    if (num[j] >= highNum) {
-        highNum = num[j];
-    }
-}
-
+let firstnum = parseInt(prompt("Inserisci il primo numero"));
+let secondnum = parseInt(prompt("Inserisci il secondo numero"));
 let textNum = document.querySelector(".higher_number");
-textNum.append("Il numero maggiore che hai inserito è: ", highNum);
+
+console.log(firstnum);
+console.log(secondnum);
+
+if (firstnum >= secondnum) {
+    textNum.append("Il numero maggiore che hai inserito è: ", firstnum);
+} else {
+    textNum.append("Il numero maggiore che hai inserito è: ", secondnum);
+}
+
+
+
+// SOLUZIONE IN CASO CI SIANO PIU' NUMERI ALL'INTERNO DI UN'ARRAY
+
+// let num = [];
+
+// for (let i = 1; i < 3; i++) {
+//     let userNum = prompt(`Inserisci il numero: ${i}`);
+//     num.push(userNum);
+// }
+
+// console.log(num);
+
+// let highNum = num[0];
+
+// for(let j = 0; j < num.length; j++) {
+//     if (num[j] >= highNum) {
+//         highNum = num[j];
+//     }
+// }
+
+// let textNum = document.querySelector(".higher_number");
+// textNum.append("Il numero maggiore che hai inserito è: ", highNum);
