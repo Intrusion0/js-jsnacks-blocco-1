@@ -27,8 +27,10 @@ let textNum = document.querySelector(".higher_number");
 console.log(firstnum);
 console.log(secondnum);
 
-if (firstnum >= secondnum) {
+if (firstnum > secondnum) {
     textNum.append("Il numero maggiore che hai inserito è: ", firstnum);
+} else if (firstnum == secondnum) {
+    textNum.append("I numeri inseriti sono pari: ", firstnum," ", secondnum);
 } else {
     textNum.append("Il numero maggiore che hai inserito è: ", secondnum);
 }
