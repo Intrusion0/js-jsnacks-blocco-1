@@ -5,6 +5,17 @@ L’utente inserisce due parole in successione, con due prompt.
 Il software stampa prima la parola più corta, poi la parola più lunga.
 */
 
+/*
+
+--DONE  1.      Creo le 2 variabili in cui l'utente inserirà le parole. => let firstwords - let secondwords;
+--DONE  2.      Creo una condizione per confrontare la lunghezza delle due parole => if (firstwords.length > secondwords.length);
+        --DONE  2.1     Se è true stampo prima la parola più corta e poi quella più lunga => append(secondwords + ' ' + firstwords);
+        --DONE  2.2     Se è pari stampo entrambi le parole con un messaggio che dice: Le parole hanno la stessa lunghezza.
+        --DONE  2.3     Se è false stampo prima la parola più corta e poi quella più lunga => append(firstwords + ' ' + secondwords);
+
+*/
+
+
 /*  METODO ALTERNATIVO
 
 --> DONE    1. Creo un array vuoto che dovrà contenere le due parole inserite dall'utente => const words = [];

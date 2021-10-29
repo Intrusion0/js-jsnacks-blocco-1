@@ -34,3 +34,26 @@ while (randNum.length < 50){
 }
 
 console.log(randNum);
+
+
+// ALTRA SOLUZIONE (non risolto)
+
+// let i = 0;
+
+// while (randNum.length < 50){
+//     let number = Math.floor(Math.random() * 50) + 1;
+//     let found = false;
+    
+//     for(let i = 0; i < randNum.length; i++) {
+//         if(randNum[i] == number){
+//             found = true;
+//         }
+//     }
+
+//     if (!false) {
+//         randNum.push(number);
+//     }
+//     i++;
+// }
+
+// console.log(randNum);
