@@ -10,8 +10,8 @@ se è dispari inseriscilo nell’array.
 
 --DONE  1.  Creo un array vuoto => let contNum = [];
 --DONE  2.  Creo un ciclo for in cui chiederò all'utente di inserire un numero => for - prompt
-3.  Creo una condizione per controllare se sia dispari. => if(numeroInserito % 2 !== 0)
-    3.1 Se è dispari lo inserisco all'interno dell'array => contNum.push
+--DONE  3.  Creo una condizione per controllare se sia dispari. => if(numeroInserito % 2 !== 0)
+    --DONE  3.1 Se è dispari lo inserisco all'interno dell'array => contNum.push
 
 */
 

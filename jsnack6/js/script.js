@@ -8,10 +8,8 @@ Genera un array di 50 numeri random. Nell’array non devono esserci doppioni.
 
 --DONE  1.  Creo un array vuoto che dovrà contenere i 50 numeri random "NON DOPPIONI" => let randNum = [];
 --DONE  2.  Creo un ciclo while in cui genero numeri random. => while
-    2.1 Controllo che i numeri generati non siano doppioni
-        2.1.1 Creo una variabile "FOUND" per capire se è stato estratto o no.
-        2.1.2 Se il numero è stato estratto non verrà stampato => if (randNum[i] == number) --> found = true;
-        2.1.3 Se il numero non è stato estratto verrà stampato => if(!found) --> found = false;
+        --DONE  2.1 Controllo che i numeri generati non siano doppioni (randNum.indexOf(number) === -1);
+                -DONE   2.1.1 Se il numero non è presente nell'array lo pusho al suo interno => randNum.push
 
 */
 
@@ -37,6 +35,10 @@ console.log(randNum);
 
 
 // ALTRA SOLUZIONE (non risolto)
+
+        // 2.1.1 Creo una variabile "FOUND" per capire se è stato estratto o no.
+        // 2.1.2 Se il numero è stato estratto non verrà stampato => if (randNum[i] == number) --> found = true;
+        // 2.1.3 Se il numero non è stato estratto verrà stampato => if(!found) --> found = false;
 
 // let i = 0;
 

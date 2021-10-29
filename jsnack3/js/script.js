@@ -7,8 +7,8 @@ Il programma stampa la somma di tutti i numeri inseriti.
 
 /*
 
---DONE    1. Creo un'array in cui conterrà i 10 numeri inseriti dall'utente => let contNum = [];
---DONE  2. Creo un ciclo for che verrà eseguito 10 volte, in cui chiederà ogni giro che fa un numero all'utente. => prompt
+--DONE  1. Creo un'array in cui conterrà i 10 numeri inseriti dall'utente => let contNum = [];
+--DONE  2. Creo un ciclo for che verrà eseguito 10 volte, in cui chiederà ogni giro un numero all'utente. => prompt
     --DONE  2.1 Utilizzo .push per riempire l'array ogni volta che l'utente inserisce il numero. => contNum.push[i];
 3. Creo un ciclo for in cui sommerò tutti i numeri inseriti dall'utente. => for
     3.1 Creo una variabile "SUM" che conterrà la somma totale di tutti i numeri dell'array.

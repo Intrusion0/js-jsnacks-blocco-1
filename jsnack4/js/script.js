@@ -9,8 +9,8 @@ chiedi all’utente il suo nome e comunicagli se può partecipare o no alla fest
 
 --DONE  1.  Creo un'array con alcuni nomi (che saranno gli invitati alla festa) => let invited = [..];
 --DONE  2.  Chiedo all'utente il suo nome => prompt
-3.  Scorro la lista degli invitati tramite un ciclo => for
-    3.1 Confronto il suo nome con tutti gli invitati = if (nome == invited[i])
+--DONE  3.  Scorro la lista degli invitati tramite un ciclo => for
+    --DONE  3.1 Confronto il suo nome con tutti gli invitati = if (nome == invited[i])
 */
 
 let invited = ["mario", "luca", "simone", "loris", "adriano", "martina", "lorena"];
