@@ -14,12 +14,12 @@ chiedi all’utente il suo nome e comunicagli se può partecipare o no alla fest
 */
 
 let invited = ["mario", "luca", "simone", "loris", "adriano", "martina", "lorena"];
-// console.log(invited);
+console.log(invited);
 
 let result = document.querySelector(".results");
 
 let userName = prompt("Inserisci il tuo nome");
-// console.log(userName);
+console.log(userName);
 
 let found = false;
 

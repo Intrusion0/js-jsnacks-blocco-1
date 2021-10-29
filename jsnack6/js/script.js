@@ -34,7 +34,7 @@ while (randNum.length < 50){
 console.log(randNum);
 
 
-// ALTRA SOLUZIONE (non risolto)
+// ALTRA SOLUZIONE
 
         // 2.1.1 Creo una variabile "FOUND" per capire se è stato estratto o no.
         // 2.1.2 Se il numero è stato estratto non verrà stampato => if (randNum[i] == number) --> found = true;
@@ -47,12 +47,12 @@ console.log(randNum);
 //     let found = false;
     
 //     for(let i = 0; i < randNum.length; i++) {
-//         if(randNum[i] == number){
+//         if(number === randNum[i]){
 //             found = true;
 //         }
 //     }
 
-//     if (!false) {
+//     if (found == false) {
 //         randNum.push(number);
 //     }
 //     i++;
